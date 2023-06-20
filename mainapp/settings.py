@@ -97,7 +97,7 @@ DATABASES = {
         'NAME': 'newdb',
         'USER': 'amit',
         'PASSWORD': 'amit1234',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
