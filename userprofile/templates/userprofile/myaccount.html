@@ -1,0 +1,14 @@
+{% extends 'core/base.html' %}
+
+{% block title %}My Account{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="text-2xl">Account Description: </h1>
+    Username:<h1 class="text-xl">{{ user.username }}!</h1>
+    FirstName:<p class="text-xl">{{user.first_name}}</p>
+    LastName:<p class="text-xl">{{user.last_name}}</p>
+    Email:<p class="text-xl">{{user.email}}</p>
+    <a href="{% url 'logout' %}" class="mt-6 inline-block py-4 px-8 bg-red-400 text-white">Log out</a>
+</div>
+{% endblock content %}
