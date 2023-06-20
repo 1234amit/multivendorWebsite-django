@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*at%)n==xal=l@jw$d%wq7es0=&c5hafj0tdpklwvv7q2a%*e0
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
 
 CART_SESSION_ID = 'cart'
